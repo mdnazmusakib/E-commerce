@@ -20,16 +20,16 @@ export const Navbar = () => {
             <img src={logo}></img>
             <div className="hiddenLinks">
             <Link to='/'>Home</Link>
-            <Link to='/'>Products</Link>
-            <Link to='/'>Carts</Link>
-            <Link to='/'>Login</Link>
+            <Link to='/Shop'>Products</Link>
+            <Link to='/Cart'>Carts</Link>
+            <Link to='/Login'>Login</Link>
             </div>
         </div>
         <div className='rightSide'>
           <Link to='/'>Home</Link>
-          <Link to='/products'>Products</Link>
-          <Link to='/carts'>Carts</Link>
-          <Link to='/login'>Login</Link>
+          <Link to='/Shop'>Products</Link>
+          <Link to='/Cart'>Carts</Link>
+          <Link to='/Login'>Login</Link>
 
           <button onClick={toggleNavbar}>
             <IoReorderFour/>
