@@ -7,6 +7,7 @@ import { Home } from './Pages/Home'
 import { Shop } from './Pages/Shop/Shop'
 import { Cart } from './Pages/Cart/Cart'
 import { ShopContextProvider } from './Context/shop-context'
+import { About } from './Pages/About'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/Cart" element={<Cart />} />
+          <Route path="/checkout" element={<About />} />
         </Routes>
         <Footer />
       </Router>
