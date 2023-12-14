@@ -1,4 +1,4 @@
-let all_product = [
+export const all_product = [
     { 
         "id": 1, 
         "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops", 
@@ -177,5 +177,5 @@ let all_product = [
         "category": "women", 
         "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg", 
         "rating": { "rate": 3.6, "count": 145 } 
-    }
+    },
 ];
