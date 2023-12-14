@@ -7,7 +7,7 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
   }
   
@@ -20,10 +20,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   
   .product img {
-    width: 250px;
+    width: 200px;
   }
   
   .product .description {
@@ -51,3 +52,10 @@
     color: white;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 1000px){
+    .products{
+      grid-template-columns: 1fr;
+
+    }
+}
