@@ -7,6 +7,7 @@ import { Home } from './Pages/Home'
 import { Shop } from './Pages/Shop/Shop'
 import { Cart } from './Pages/Cart/Cart'
 
+
 function App() {
   return (
     <div className="App">
