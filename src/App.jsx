@@ -8,6 +8,7 @@ import { Shop } from './Pages/Shop/Shop'
 import { Cart } from './Pages/Cart/Cart'
 import { ShopContextProvider } from './Context/shop-context'
 import { About } from './Pages/About'
+import {Login} from './Pages/Login'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Shop" element={<Shop />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/checkout" element={<About />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
         <Footer />
       </Router>
